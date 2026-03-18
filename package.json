@@ -1,0 +1,33 @@
+{
+  "name": "youtube-multi-channel-feed",
+  "version": "1.0.0",
+  "description": "Aggregates videos from multiple YouTube channels into a single chronological feed for easy browsing.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "start:dry-run": "ts-node src/index.ts --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/britneyfrei/youtube-multi-channel-feed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/britneyfrei/youtube-multi-channel-feed/issues"
+  },
+  "homepage": "https://github.com/britneyfrei/youtube-multi-channel-feed#readme",
+  "dependencies": {
+    "chrono-node": "^2.9.0",
+    "dotenv": "^17.3.1",
+    "googleapis": "^171.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
