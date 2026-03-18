@@ -1,0 +1,8 @@
+{
+  "channels": [
+    "https://www.youtube.com/@channelname",
+    "https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxx",
+    "https://www.youtube.com/c/customname"
+  ],
+  "playlistName": "Aggregated Feed"
+}
